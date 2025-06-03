@@ -21,7 +21,7 @@ export async function getStaticProps() {
 export default function Home({ files }) {
   const [copied, setCopied] = useState(null)
 
-  const baseUrl = 'https://guias.vitahub.mx/guias'
+  const baseUrl = 'https://guias-vitahub.vercel.app/'
 
   const copyToClipboard = (file) => {
     const url = `${baseUrl}/${file}`
